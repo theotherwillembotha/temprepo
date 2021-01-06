@@ -1,0 +1,198 @@
+{
+	"id": "video",
+	"header": "Video\n\n",
+	"options": {
+		"1": {
+			"description": "MTN Shortz",
+			"type": "SUBMENU",
+			"targetSubmenu": {
+				"id": "video.mtnshortz",
+				"header": "MTN Shortz\n\n",
+				"options": {
+					"1": {
+						"description": "Most Popular",
+						"type": "SUBMENU",
+						"targetSubmenu": {
+							"id": "video.mtnshortz.mostpopular`",
+							"header": "Most Popular\n\n",
+							"options": {
+								"1": {
+									"description": "Comics Club",
+									"type": "REDIRECT_USSD",
+									"targetRedirectUssd": "*464*688#"
+								},
+								"2": {
+									"description": "Connect Music",
+									"type": "REDIRECT_USSD",
+									"targetRedirectUssd": "*464*943#"
+								},
+								"3": {
+									"description": "Connect Comedy",
+									"type": "REDIRECT_USSD",
+									"targetRedirectUssd": "*464*940#"
+								},
+								"4": {
+									"description": "SoccerTV",
+									"type": "REDIRECT_USSD",
+									"targetRedirectUssd": "*464*941#"
+								},
+								"5": {
+									"description": "KidsTV",
+									"type": "REDIRECT_USSD",
+									"targetRedirectUssd": "*464*942#"
+								},
+								"6": {
+									"description": "Show me your funnies",
+									"type": "REDIRECT_USSD",
+									"targetRedirectUssd": "*464*940#"
+								},
+								"7": {
+									"description": "MusicTV",
+									"type": "REDIRECT_USSD",
+									"targetRedirectUssd": "*464*943#"
+								},
+								"8": {
+									"description": "ComedyTV",
+									"type": "REDIRECT_USSD",
+									"targetRedirectUssd": "*464*940#"
+								},
+								"9": {
+									"description": "Comedy Mpolaye",
+									"type": "REDIRECT_USSD",
+									"targetRedirectUssd": "*464*940#"
+								},
+								"10": {
+									"description": "EntrepreneurTV",
+									"type": "REDIRECT_USSD",
+									"targetRedirectUssd": "*464*948#"
+								}
+							}
+						}
+					},
+					"2": {
+						"description": "Recommended",
+						"type": "SUBMENU",
+						"targetSubmenu": {
+							"id": "video.shortz.recommended",
+							"header": "Recommended\n\n",
+							"options": {
+								"1": {
+									"description": "PockitTV",
+									"type": "REDIRECT_USSD",
+									"targetRedirectUssd": "*464*944#"
+								},
+								"2": {
+									"description": "VuClip",
+									"type": "REDIRECT_USSD",
+									"targetRedirectUssd": "*156*333*2#"
+								},
+								"3": {
+									"description": "Viu",
+									"type": "REDIRECT_USSD",
+									"targetRedirectUssd": "*156*63#"
+								},
+								"4": {
+									"description": "GravelRoadTV",
+									"type": "REDIRECT_USSD",
+									"targetRedirectUssd": "*464*943#"
+								},
+								"5": {
+									"description": "Yellowdot",
+									"type": "REDIRECT_USSD",
+									"targetRedirectUssd": "*464*928#"
+								},
+								"6": {
+									"description": "Other",
+									"type": "STATIC_TEXT",
+									"targetStaticText": "For the best in Video Entertainment\nplease visit https: //play.mtn.co.za\n/watch\n\n"
+								}
+							}
+						}
+					},
+					"3": {
+						"description": "All Channels",
+						"type": "SEND_SMS",
+						"targetSmsDefinition": {
+							"targetStaticText": "For a full list of catalog of MTN Shortz\nChannels please visit https: //\nshortz.mtn.co.za\n\n",
+							"targetSmsText": "Y'ello. Thank you for your interest in Shortz. For a full catalog of MTN Shortz Channels please visit https://shortz.mtn.co.za"
+						}
+					}
+				}
+			}
+		},
+		"2": {
+			"description": "Kidz",
+			"type": "REDIRECT_USSD",
+			"targetRedirectUssd": "*464*942#"
+		},
+		"3": {
+			"description": "Sports",
+			"type": "SUBMENU",
+			"targetSubmenu": {
+				"id": "video.sports",
+				"header": "Sports\n\n",
+				"options": {
+					"1": {
+						"description": "WWE",
+						"type": "REDIRECT_USSD",
+						"targetRedirectUssd": "*686*6639#"
+					},
+					"2": {
+						"description": "More",
+						"type": "REDIRECT_USSD",
+						"targetRedirectUssd": "*464*941#"
+					}
+				},
+				"menuFormat": {
+					"numberOfItemsPerPage": 100,
+					"moreOption": "0",
+					"more": "\n0. More ",
+					"back": "\n99. Back ",
+					"backOption": "99",
+					"format": "%1$s%n%2$s%3$s",
+					"showBackOnFirstPage": true
+				}
+			}
+		},
+		"4": {
+			"description": "Comedy",
+			"type": "REDIRECT_USSD",
+			"targetRedirectUssd": "*464*940#"
+		},
+		"5": {
+			"description": "Lifestyle",
+			"type": "REDIRECT_USSD",
+			"targetRedirectUssd": "*464*944#"
+		},
+		"6": {
+			"description": "Music",
+			"type": "REDIRECT_USSD",
+			"targetRedirectUssd": "*464*943#"
+		},
+		"7": {
+			"description": "Reality TV",
+			"type": "REDIRECT_USSD",
+			"targetRedirectUssd": "*464*945#"
+		},
+		"8": {
+			"description": "Spiritual",
+			"type": "REDIRECT_USSD",
+			"targetRedirectUssd": "*464*946#"
+		},
+		"9": {
+			"description": "News",
+			"type": "REDIRECT_USSD",
+			"targetRedirectUssd": "*464*947#"
+		},
+		"10": {
+			"description": "Education",
+			"type": "REDIRECT_USSD",
+			"targetRedirectUssd": "*464*948#"
+		},
+		"11": {
+			"description": "StarNews Mobile",
+			"type": "REDIRECT_USSD",
+			"targetRedirectUssd": "*156*8378*654#"
+		}
+	}
+}
