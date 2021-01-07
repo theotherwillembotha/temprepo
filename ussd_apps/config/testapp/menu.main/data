@@ -1,0 +1,97 @@
+{
+  "id": "main",
+  "header": "Welcome to MTN Subscription Services.",
+  "menuFormat": {
+    "DEFAULT_SHOW_BACK_ON_FIRST_PAGE": true,
+    "showBackOnFirstPage": true,
+    "numberOfItemsPerPage": 100,
+    "moreOption": "99",
+    "more": "99. More ",
+    "back": "0. Back ",
+    "backOption": "0",
+    "format": "%1$s%n%2$s%3$s"
+  },
+  "options": {
+    "1": {
+      "description": "Games",
+      "type": "SUBMENU",
+      "targetSubmenu": {
+        "id": "games"
+      }
+    },
+    "2": {
+      "description": "Music",
+      "type": "SUBMENU",
+      "targetSubmenu": {
+        "id": "music"
+      }
+    },
+    "3": {
+      "description": "Videos",
+      "type": "SUBMENU",
+      "targetSubmenu": {
+        "id": "video"
+      }
+    },
+    "4": {
+      "description": "Lifestyle",
+      "type": "SUBMENU",
+      "targetSubmenu": {
+        "id": "lifestyle"
+      }
+    },
+    "5": {
+      "description": "Alerts",
+      "type": "SUBMENU",
+      "targetSubmenu": {
+        "id": "alerts"
+      }
+    },
+    "6": {
+      "description": "News",
+      "type": "SUBMENU",
+      "targetSubmenu": {
+        "id": "news"
+      }
+    },
+    "7": {
+      "description": "Dating",
+      "type": "REDIRECT_USSD",
+      "targetRedirectUssd": "*464*6#"
+    },
+    "8": {
+      "description": "Soccer",
+      "type": "SUBMENU",
+      "targetSubmenu": {
+        "id": "soccer"
+      }
+    },
+    "9": {
+      "description": "WIN Big",
+      "type": "SUBMENU",
+      "targetSubmenu": {
+        "id": "winbig"
+      }
+    },
+    "10": {
+      "description": "Horoscopes",
+      "type": "REDIRECT_USSD",
+      "targetRedirectUssd": "*464*968#"
+    },
+    "11": {
+      "description": "Soapies",
+      "type": "REDIRECT_USSD",
+      "targetRedirectUssd": "*464*965#"
+    },
+    "12": {
+      "description": "MYMTN Offers",
+      "type": "REDIRECT_USSD",
+      "targetRedirectUssd": "*142#"
+    },
+    "13": {
+      "description": "Manage Content",
+      "type": "STATIC_TEXT",
+      "targetStaticText": "Please dial *155# for MTN Subscription Services Manager"
+    }
+  }
+}
